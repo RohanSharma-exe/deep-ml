@@ -5,7 +5,7 @@ def vector_sum(a: list[int|float], b: list[int|float]) -> list[int|float]:
 	# If vectors have different lengths, return -1.
 	if len(a) != len(b):
 		return -1
-	
+		
 	a = np.array(a)
 	b = np.array(b)
 
